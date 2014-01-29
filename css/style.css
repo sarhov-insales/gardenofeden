@@ -444,3 +444,33 @@
 .foot-mini-box:first-child{
 	margin-left: 0;
 }
+
+.soc-box{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-left: 2px;
+	background: #90c;
+}
+
+.subscribe-txt{
+	width: 210px;
+	height: 27px;
+	display: inline-block;
+	padding: 5px 22px 5px 5px;
+	color: #aeaeae;
+	width: 205;
+	background: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid;
+}
+
+.subscribe-submit{
+	right: 0;
+	width: 22px;
+	cursor: pointer;
+	height: 100%;
+	background: url('../images/subscribe-submit.png') center center no-repeat;
+}
