@@ -352,6 +352,8 @@
 .news-box {
     height: 155px;
     overflow: hidden;
+    width: 980px;
+    float: left;
 }
 .news-box-img {
     height: 155px;

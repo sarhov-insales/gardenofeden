@@ -58,6 +58,15 @@
 
     });
 
+    $('#news-carousel').carouFredSel({
+      items: 1,
+      direction: "up",
+      auto: false,
+      prev: '#news-prev',
+      next: '#news-next',
+
+    });
+
     $('#carousel2').carouFredSel({
       items: 4,
       direction: "left",
@@ -117,24 +126,44 @@
 
   <div class="row slider_">
     <div class="row_5 rel slider_1">
-  <div id="slider1" class="nivoSlider">
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/1/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/2/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/3/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/4/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/5/" alt="" class="slide-img"></a>
-  </div>
-</div>
-<div class="row_5 rel slider_2">
-  <div id="slider2" class="nivoSlider">
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/6/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/7/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/8/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/9/" alt="" class="slide-img"></a>
-    <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/10/" alt="" class="slide-img"></a>
-    
-  </div>
-</div>
+      <div id="slider1" class="nivoSlider">
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/1/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/2/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/3/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/4/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/5/" alt="" class="slide-img">
+        </a>
+      </div>
+    </div>
+    <div class="row_5 rel slider_2">
+      <div id="slider2" class="nivoSlider">
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/6/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/7/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/8/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/9/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/10/" alt="" class="slide-img">
+        </a>
+
+      </div>
+    </div>
   </div>
   <!-- slider_ -->
 
@@ -457,22 +486,70 @@
   <!-- item-box-tabs -->
 
   <div class="row news-boxes_">
-    <section class="gl-inner cf news-boxes">
+    <section class="gl-inner cf news-boxes cf rel">
       <h3 class="news-box-title gl-title box-title smooth">
         <a class="news-box-title-link box-title-link">Блог</a>
-      </h3>
-      <article class="news-box cf row">
-        <div class="row_5 news-box-img">
-          <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
-        </div>
-        <div class="row_5 fr news-box-info">
-          <h1 class="news-box-article-title ">
-            <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
-          </h1>
-          <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
-        </div>
-      </article>
+      </h3> 
+      <a href="#" id="news-prev" class="next-prev prev abs">Назад</a>
+        <a href="#" id="news-next" class="next-prev next abs">Вперед</a>
+      <div id="news-carousel" class="news-boxes-carousel rel">
+       
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+      </div>
+      <!-- news-boxes-carousel -->
     </section>
+    <!-- news-boxes -->
   </div>
   <!-- news-boxes_ -->
 
@@ -534,16 +611,16 @@
           <span class="copy txt">| Все права защищены</span>
         </div>
         <!-- copyinfo -->
-        <aside class="contact-box row_5 fr cf">
+        <aside class="contact-box row_5 fr">
           <div class="soc-boxes_  foot-mini-box fr">
             <a href="" class="soc-box vk opa"></a>
             <a href="" class="soc-box fb opa"></a>
             <a href="" class="soc-box tw opa"></a>
             <a href="" class="soc-box ig opa"></a>
           </div>
-      
+
           <a href="" class="site-email site-email-foot foot-mini-box fr">info@gardenofeden.com</a>
-    <a href="" class="site-phone site-phone-foot foot-mini-box fr">8 800 544-67-76  </a>
+          <a href="" class="site-phone site-phone-foot foot-mini-box">8 800 544-67-76  </a>
           <!-- soc-boxes -->
         </aside>
         <!-- contact-box -->
