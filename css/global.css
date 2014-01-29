@@ -18,10 +18,8 @@ display: table; /* 2 */
 
 
 .gl-inner{
-  min-width: 65.63em;
-  max-width: 61.25em;
+  width: 61.25em;
   margin: 0 auto;
-  width: 100%;
 }
 
 .fl{
