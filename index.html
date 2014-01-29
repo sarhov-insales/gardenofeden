@@ -29,10 +29,13 @@ $(window).load(function() {
     <div class="gl-inner cf">
       <a href="tel:+8 8005446776" class="site-phone site-phone-head fl">8 800 544-67-76 </a> 
       <a href="#" class="call_order fl" id="mod-fast-call-link">заказать звонок</a>
-      <div class="cart_ fr"><a href="">Корзина<span class="cart_items_count">4</span></a></div>
+      <div class="cart_ fr"><a class="cart-link" href="cart.html">Корзина<span class="cart_items_count">4</span></a></div>
       <div class="search_ fr">
-        <div class="search_wrap"><input type="text" class="input-txt"><button type="submit" class="search-submit"></button></div>
-      </div>
+        <div class="search_wrap rel">
+          <input type="text" class="input-txt top-search" placeholder="поиск">
+          <button type="submit" class="search-submit abs"></button>
+        </div> <!-- search_wrap -->
+      </div> <!-- search_ -->
     </div>
   </div>  <!-- top-head  -->
 
@@ -47,7 +50,7 @@ $(window).load(function() {
   </div>  <!-- site-header -->
 
   <div class="row slider_">
-    <div class="row_5">
+<!--     <div class="row_5 rel slider_1">
       <div id="slider1" class="nivoSlider">
         <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/1/" alt="" class="slide-img"></a>
         <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/2/" alt="" class="slide-img"></a>
@@ -56,7 +59,7 @@ $(window).load(function() {
         <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/5/" alt="" class="slide-img"></a>
       </div>
     </div>
-    <div class="row_5">
+    <div class="row_5 rel slider_2">
       <div id="slider2" class="nivoSlider">
         <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/6/" alt="" class="slide-img"></a>
         <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/7/" alt="" class="slide-img"></a>
@@ -65,19 +68,19 @@ $(window).load(function() {
         <a href="" class="slide-link"><img src="http://lorempixel.com/700/700/sports/10/" alt="" class="slide-img"></a>
         
       </div>
-    </div>
+    </div> -->
   </div>  <!-- slider_ -->
 
   <div class="row padded get-discount_ cf">
     <section class="gl-inner">
-      <div class="row_3">
+      <div class="row_4 get-discount-text">
         Запишитесь на встречу с нашим менеджером и получите скидку 10%
       </div>
   
-      <div class="row_7 get-form_">
+      <div class="row_6 get-form_">
         <form action="">
-          <input type="text" class="get-discount-input">
-          <input type="tel" class="get-discount-input">
+          <input type="text" class="get-discount-input" placeholder="Имя">
+          <input type="tel" class="get-discount-input" placeholder="Телефон">
           <button class="discount-submit button1">Записаться</button>
         </form>
         
@@ -85,15 +88,15 @@ $(window).load(function() {
      </section>
   </div> <!-- get-discount_ -->
 
-  <div class="row info-boxes_">
+  <div class="row info-boxes_ padded">
     <section class="gl-inner info-boxes">
-      <div class="row_45 info-box">
-        <h2 class="info-box-title gl-title">Домашний набор мебели</h2>
-        <p class="info-box-desc">Каркас дивана — это спроектированная определённым образом конструкция, которая принимают основную часть нагрузки при эксплуатации изделия. </p>
+      <div class="row_5 5info-box ">
+        <h2 class="info-box-title gl-title  smooth">Домашний набор мебели</h2>
+        <p class="info-box-desc smooth">Каркас дивана — это спроектированная определённым образом конструкция, которая принимают основную часть нагрузки при эксплуатации изделия. </p>
       </div>
-      <div class="row_45 info-box">
-        <h2 class="info-box-title gl-title">Домашний набор мебели</h2>
-        <p class="info-box-desc">Каркас дивана — это спроектированная определённым образом конструкция, которая принимают основную часть нагрузки при эксплуатации изделия. </p>
+      <div class="row_5 info-box fr">
+        <h2 class="info-box-title gl-title smooth">Домашний набор мебели</h2>
+        <p class="info-box-desc smooth">Каркас дивана — это спроектированная определённым образом конструкция, которая принимают основную часть нагрузки при эксплуатации изделия. </p>
       </div>
     </section>
   </div>  <!-- info-box_ -->
@@ -108,15 +111,19 @@ $(window).load(function() {
       </div>
     
       <div class="tab-box_">
-        <div class="tab-box">
-          
+        
+        <section class="item-box-carousel" id="item-box-carousel1">
+        <div class="tab-box item-box">
+          <div class="item-box-info">
+            <a href="" class="item-box-img-link rel">
+              <img src="images/item-box-img.jpg" alt="" class="item-box-img"></a>
+          </div>
+          <div class="item-box-foot">
+            <span class="item-box-price">24550 Руб</span>
+          </div>
         </div>
-        <div class="tab-box">
-          
-        </div>
-        <div class="tab-box">
-          
-        </div>
+      </section> <!-- carousel -->
+
       </div> <!-- tab-box_ -->
     </section>
   </div>  <!-- item-box-tabs -->

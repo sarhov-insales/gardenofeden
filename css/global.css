@@ -15,25 +15,21 @@ display: table; /* 2 */
   box-sizing: border-box;
 }
 
-body{
-  font-family: museo_300, sans-serif;
-  font-family: 100%;
-  color: #58585a;
-}
+
 
 .gl-inner{
   min-width: 65.63em;
-  max-width: 60em;
+  max-width: 61.25em;
   margin: 0 auto;
   width: 100%;
 }
 
 .fl{
-  float:left;
+  float:left !important;
 }
 
 .fr{
-  float: right; 
+  float: right !important; 
 }
 
 .rel{
@@ -192,12 +188,25 @@ img{
   min-height: 100%;
 }
 
+button{
+  background: none;
+  border: none;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol{
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
 
 a:active,
 a:hover, 
 a:focus {
     outline: 0;
 }
+
+*:focus { outline: none; }
 
 b,
 strong {
