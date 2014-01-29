@@ -42,7 +42,7 @@
 .museo_sans_300 {
     font-family: museo_sans_300;
 }
-/*temp*/
+
  body {
     font-family: museo_300, sans-serif;
     font-family: 100%;
@@ -51,8 +51,42 @@
     min-width: 1050px;
 }
 .site-header {
-    display: none;
+    /*display: none;*/
+    z-index: 9999;
+    top: 40px;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
+
+.site-name{
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	border-radius: 50%;
+	margin: 20px auto;
+	background:url('../images/logo.png') center 30px no-repeat rgba(255,255,255, 0.9);
+}
+
+.site-name-link{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.site-slogan{
+	top: 72%;
+	font-size: 11px;
+	color: #58585a;
+	left: 0;
+	right: 0;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+	line-height: 1.5;
+}
+
+
 /*site-top*/
  .top-head {
     position: fixed;
@@ -316,11 +350,11 @@
 }
 .next-prev {
     top: 0;
-    -webkit-transition: opacity 0.7s;
-    -moz-transition: opacity 0.7s;
-    -ms-transition: opacity 0.7s;
-    -o-transition: opacity 0.7s;
-    transition: opacity 0.7s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
     bottom: 0;
     margin: auto;
     display: block;
@@ -333,7 +367,7 @@
 }
 
 .next-prev:hover{
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .prev {
@@ -518,15 +552,15 @@
 }
 
 .opa{
-	-webkit-transition: opacity 0.7s;
-	-moz-transition: opacity 0.7s;
-	-ms-transition: opacity 0.7s;
-	-o-transition: opacity 0.7s;
-	transition: opacity 0.7s;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
 }
 
 .opa:hover{
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .contact-box{
