@@ -89,6 +89,11 @@
     padding: 4px 22px 5px 10px;
     font-size: 12px;
 }
+
+.top-search:focus{
+	border-color: #C6BAAE;
+}
+
 .search-submit {
     width:20px;
     right: 0;
@@ -157,6 +162,7 @@
     line-height: 1.05;
     width: 42%;
 }
+
 .get-form_ {
     float: right;
     font-family: muse_sans_100;
@@ -253,6 +259,7 @@
 .info-box-desc {
     font-size: 16px;
     color: #58585a;
+    text-align: justify;
 }
 .info-box-title {
     margin-bottom: 20px;
@@ -308,14 +315,35 @@
     padding: 18px 0 0 0;
 }
 .next-prev {
-    top: 50%;
+    top: 0;
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    -ms-transition: opacity 0.7s;
+    -o-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 20px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url('../images/carousel-next-prev.png') 0 0 no-repeat;
+
 }
+
+.next-prev:hover{
+	opacity: 0.7;
+}
+
 .prev {
-    left: -40px;
+    left: -50px;
 }
 .next {
-    right: -40px;
+    right: -50px;
+    background-position: 0 -51px;
 }
+
 .tab-box-item {
     position: absolute;
     top: 0;
@@ -389,6 +417,7 @@
     color: #58585a;
     height: 105px;
     overflow: hidden;
+    text-align: justify;
 }
 .news-box-title {
     font-size:30px;
@@ -516,6 +545,10 @@
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 	border: 1px solid;
+}
+
+.subscribe-txt:focus{
+	color: #90B162;
 }
 
 .subscribe-submit{
