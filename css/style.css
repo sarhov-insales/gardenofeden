@@ -194,12 +194,14 @@ body{
 	font-size: 1.5em;
 	font-family: museo_100;
 	line-height: 1.05;
+	width: 41%;
 }
 
 .get-form_{
 	float: right;
 	font-family: muse_sans_100;
 	font-size: 0.88em;
+	width:56.5%;
 }
 
 .get-discount-input{
@@ -211,9 +213,14 @@ body{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	margin-left: 0.5em;
+	margin-left: 0.4em;
 	display: inline-block;
 	vertical-align: middle;
+	width: 11.52em;
+}
+
+.get-discount-input:first-child{
+	margin-left: 0;
 }
 
 .button1{
@@ -241,7 +248,7 @@ body{
 	height: 2.08em;
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 1.5em;
+	margin-left: 1.4em;
 	color: #fff;
 	border: none;
 	cursor: pointer;
@@ -383,4 +390,85 @@ body{
 
 .tab-box_{
 	height: 340px;
+}
+
+.tab-items{
+	margin-bottom: 1.25em;
+	height: 2em;
+}
+
+.tab-item-open{
+	margin-right: 40px;
+	color: #676768;
+	border-bottom: 1px dotted;
+	font-size: 1.13em;
+	display: inline-block;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.tab-item-open:hover{
+	color: #19a1a4;
+}
+
+.tab-item-open.selected{
+	font-family:museo_100 ;
+	font-size: 1.67em;
+	color: #19a1a4;
+	border: none;
+	margin-top: -10px;
+}
+
+.news-boxes_{
+	padding: 1.88em 0  4.38em 0;
+}
+
+.news-box{
+	height: 155px;
+	overflow: hidden;
+}
+
+.news-box-img{
+	height: 155px;
+	padding-right: 1.88em;
+}
+
+.news-box-img-link{
+	display: block;
+	height: 100%;
+	width: 100%;
+	color:  #19a1a4;;
+}
+
+.news-box-desc{
+	font-family: museo_300;
+	font-size: 1em;
+	color: #58585a;
+	height: 105px;
+	overflow: hidden;
+}
+
+.news-box-title{
+	font-size:1.88em;
+	color: #19a1a4;
+	margin-bottom: 1em;
+	color: #19a1a4;
+}
+
+.news-box-article-title{
+	margin-bottom: 20px;
+	line-height: 1;
+	height: 30px;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+
+.box-article-title-link{
+	font-family:museo_100 ;
+	font-size:1.5em;
 }
