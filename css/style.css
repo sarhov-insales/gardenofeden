@@ -431,18 +431,17 @@
 .site-phone-foot {
     font-size: 14px;
     display: inline-block;
-    margin-top: 4px;
     color:	#58585A;
 }
 
 .foot-mini-box{
-	margin-left: 35px;
+	margin-right: 35px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .foot-mini-box:first-child{
-	margin-left: 0;
+	margin-right: 0;
 }
 
 .soc-box{
@@ -450,7 +449,40 @@
 	width: 25px;
 	height: 25px;
 	margin-left: 2px;
-	background: #90c;
+	background: url('../images/soc-box-icons.png') 0 center transparent no-repeat;
+}
+
+
+.soc-box.vk{
+	background-position: -4px center;
+}
+
+.soc-box.fb{
+	background-position: -24px center;
+}
+
+.soc-box.tw{
+	background-position: -44px center;
+}
+
+.soc-box.ig{
+	background-position: -71px center;
+}
+
+.opa{
+	-webkit-transition: opacity 0.7s;
+	-moz-transition: opacity 0.7s;
+	-ms-transition: opacity 0.7s;
+	-o-transition: opacity 0.7s;
+	transition: opacity 0.7s;
+}
+
+.opa:hover{
+	opacity: 0.7;
+}
+
+.contact-box{
+	margin-top: -5px;
 }
 
 .subscribe-txt{
