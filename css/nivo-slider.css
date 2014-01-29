@@ -104,10 +104,45 @@
 .nivo-controlNav {
 	text-align:center;
 	padding: 15px 0;
-}
-.nivo-controlNav a {
-	cursor:pointer;
+	z-index:9;
 }
 .nivo-controlNav a.active {
-	font-weight:bold;
+    background: none repeat scroll 0 0 content-box #FFFFFF;
+    border: 1px solid #fff;
+    height: 8px;
+    margin: 5px;
+    padding: 5px;
+    width: 8px;
 }
+
+.nivo-controlNav a {
+	 background: none repeat scroll 0 0 content-box #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 13px;
+    margin: 5px;
+    padding: 3px;
+    text-indent: -9999px;
+    width: 13px;
+    vertical-align: middle;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.slider_2  .nivo-controlNav a{
+	 background: none repeat scroll 0 0 content-box #717172;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+
+.slider_2  .nivo-controlNav a.active{
+	 background: none repeat scroll 0 0 content-box #717172;
+    border: 1px solid #717172;
+}
+
+
