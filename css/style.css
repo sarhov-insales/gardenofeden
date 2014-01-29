@@ -86,6 +86,59 @@
 	line-height: 1.5;
 }
 
+.site-link-item {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+     position: relative;
+    top: 1.2em;
+    font-size: 15px;
+}
+
+
+
+.site-link-item:nth-child(n+2){
+	width: 166px;
+	height: 166px;
+	font-size: 18px;
+}
+
+.site-link-item:nth-child(n+4){
+	width: 120px;
+	height: 120px;
+	    font-size: 15px;
+}
+
+.site-links{
+	text-align: justify;
+}
+
+.site-links:before{
+    content: '';
+    display: block;
+    width: 100%;
+    margin-bottom: -1.2em; /* your line-height */
+}
+
+.site-links:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.site-link-item-text{
+	display: block;
+	right: 0;
+	left: 0;
+	top: 14%;
+	text-align: center;
+	width: 100px;
+	bottom: 0;
+	height: 50px;
+	margin: auto;
+}
 
 /*site-top*/
  .top-head {

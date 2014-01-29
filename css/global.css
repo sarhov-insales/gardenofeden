@@ -15,23 +15,10 @@ display: table; /* 2 */
   box-sizing: border-box;
 }
 
-.get-discount-input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #fff;
-}
-.get-discount-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #fff;
-}
-.get-discount-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #fff;
-}
-.get-discount-input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #fff;
-}
-
 
 
 .gl-inner{
-  width: 61.25em;
+  width: 980px;
   margin: 0 auto;
 }
 
